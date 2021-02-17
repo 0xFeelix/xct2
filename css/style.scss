@@ -1,0 +1,500 @@
+/* Import Styles */
+@import url("reset.css");
+@import url("fonts.css");
+@import url('particles.css');
+/* ParticleJs */
+$orange-color: #ffc107;
+$base-color: #637AFC;
+
+#particles-js{
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top:0;
+  left: 0;
+  background: #191923;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+body{
+  display: flex;
+  font-family: PoppinsReg;
+}
+#wrapper{
+  display: flex;
+  height: 100vh;
+  overflow: visible;
+  overflow-x: hidden;
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 15 0;
+  width: 100%;
+  color: #fff;
+  z-index: 999;
+}
+
+
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.container-fluid {
+    overflow: hidden;
+    position: relative;
+  }
+
+
+.main-content{
+  z-index: 10;
+  background: rgba(30,30,40, 0.5);
+  position: relative;
+}
+
+/* Navigation*/
+#info-bar{
+    position: fixed;
+    width: 290px;
+    min-width: 290px;
+    padding: 0 31px;
+    background: #20202A;
+    height: calc(100vh - 30px);
+    z-index: 999;
+}
+
+
+.info-header{
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 999;
+  width: 100%;
+  padding: 30px;
+  height: 235px;
+  text-align: center;
+  background: linear-gradient(159deg,rgba(37,37,50,.98) 0%,rgba(35,35,45,.98) 100%);
+    .info-avatar{
+        img{
+          height: 50%;
+          border-radius: 50%;
+          object-fit: cover;}
+    }
+    h5{
+      margin: 15px 0;
+        a{
+        font-family: PoppinsSb;
+        color: #FAFAFC;
+        font-size: 14px;}
+    }
+
+    .sm-text{
+      font-size: 13px;
+      color: #8C8C8E;
+      line-height: 20px;}
+}
+
+.info-scroll::-webkit-scrollbar {width: 0px;}
+
+.info-scroll{
+  padding: 240px 0 50px;
+  height: calc(100vh - 30px);
+  overflow: auto;
+
+  /* Info-table */
+  .info-table li{
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+    margin-bottom: 15px;
+      &:last-child{
+        margin-bottom: 0;
+      }
+      span{
+        color: #8C8C8E;
+      }
+  }
+
+  /* Info-lang-skills*/
+  .info-lang-skills{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    margin-bottom: 10px;
+    .ldBar{
+      width: 50px !important;
+      .baseline{stroke: #191923}
+      .mainline{stroke: $base-color}
+      path{stroke-width: 7px}
+
+      .ldBar-label{
+        color: #CACACE;
+        font-size: 12px;
+      }
+    }
+    h6{
+      font-size: 13px;
+    }
+  }
+
+
+
+
+
+
+/* Hard Skills */
+.hard-skills-item{
+      .hard-skills-text{
+        display: flex;
+        justify-content: space-between;
+        font-size: 13px;
+        span{
+          color: #CACACE;
+        }
+      }
+
+      .progress{
+        background: #191923;
+        border-radius: 0;
+        height: 5px;
+        margin: 10px 0 20px 0;
+        .progress-bar{
+          background: $base-color;
+        }
+      }
+}
+
+
+
+/* Knowledge list */
+.knowledge-list{
+  li{font-size: 13px; color: #8C8C8E; margin-bottom: 12px;}
+  li:before{
+    font-family: "FontAwesome";
+    font-weight: 900;
+    content: "\f00c";
+    margin-right: 5px;
+    font-size: 9px;
+    color: $base-color;
+    margin-right: 10px;
+  }
+}
+
+
+
+
+
+/* Download CV */
+.cv-link{
+  a{
+    color: #8C8C8E;
+    font-family: PoppinsSb;
+    text-transform: uppercase;
+    font-size: 12px;
+    transition: .5s;
+      &:hover{
+        color: #fff;
+      }
+
+      i{
+        font-size: 8px;
+        margin-left: 8px;
+      }
+  }
+}
+
+
+
+
+
+
+/* Social links */
+  .social-links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    padding: 0 35px;
+    height: 50px;
+    background: linear-gradient(159deg,rgba(37,37,50,.98) 0%,rgba(35,35,45,.98) 100%);
+    width: 100%;
+    z-index: 999;
+    .twitter:hover{color: #1DA1F2}
+    :nth-child(2):hover{color: #4267B2;}
+    :nth-child(3):hover{color: purple;}
+    :nth-child(4):hover{color: orange;}
+    :nth-child(5):hover{color: #4285F4;}
+    :nth-child(6):hover{color: #DB4437;}
+    a{
+      margin-right: 5px;
+      font-size: 17px;
+      color: #B8CBDC;
+      transition: .4s ease all
+
+    }
+  }
+
+
+}
+
+.info-divider{
+    background: #8c8c8e;
+    width: 100%;
+    height: 1px;
+    opacity: .3;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#content::-webkit-scrollbar {width: 0px;}
+
+/* Content */
+
+#content{
+  position: relative;
+  overflow: auto;
+  padding-left: 290px;
+  height: calc(100vh - 30px);
+  width: 100vw;
+  padding-right: 80px;
+  .content-header{  /* Content header */
+    width: 100%;
+    padding: 60px;
+    background: #24242E;
+    h1{
+      font-size: 52px;
+      font-family: PoppinsEb;
+    }
+
+    .site-title{
+      display: flex;
+      justify-content: center;
+      font-family: VarelaRound;
+    }
+    .myName{
+      font-size: 26px;
+      color: #DAE4ED;
+      margin-right: 5px;
+      float: left;
+        &:after{
+          content: '\f054';
+          font-family: 'FontAwesome';
+          color: $base-color;
+          font-size: 17px;
+          margin-left: 5px;
+
+
+        }
+      }
+    #typing{
+      color: #DAE4ED;
+      line-height: 30px}
+
+      .header-button{
+        a{
+          background: $base-color;
+          font-family: PoppinsSb;
+          font-size: 12px;
+          text-transform: uppercase;
+          color: #20202A;
+          padding: 13px 35px;
+        }
+      }
+  }
+
+
+
+
+
+  .content-scroll{
+    overflow: visible;
+    .base-title h4{
+      font-family: PoppinsSb;
+      font-size: 17px;
+    }
+
+    .elementor-widget{/* Elementor widget */
+      div{
+        display: flex;
+        span{
+          color: $base-color;
+          margin-right: 10px;
+          font-size: 22px;
+          font-family: PoppinsSb;
+        }
+        h6{
+          font-size: 13px;
+          line-height: 22px;
+        }
+      }
+    }
+
+
+    .service-content{/* Services */
+
+        .box-item{
+          margin: 15px 0;
+          &:first-child{
+            margin-left: 0;
+          }
+          .my-box{
+            background: #2C2C36;
+            padding: 30px;
+          }
+          h5{
+            font-family: PoppinsSb;
+            font-size: 14px;
+          }
+          p{
+            font-size: 13px;
+            color: #8C8C8E;
+            margin: 20px 0;
+            line-height: 22px;
+          }
+          a{
+            font-size: 12px;
+            text-transform: uppercase;
+            color: $base-color;
+            font-family: PoppinsSb;
+          }
+        }
+    }
+
+
+
+        .price-box{/* Price-box */
+          margin: 15px 0;
+          .price-box-item{
+            padding: 30px;
+            background: #2C2C37;
+            text-align: center;
+              h5{
+                font-family: PoppinsSb;
+                font-size: 14px;
+              }
+
+              .price-cost{
+                margin: 20px 0;
+                span{
+                  font-size: 32px;
+                  color: $base-color;
+                  font-family: PoppinsSb;
+                  margin: 0 8px;
+                }
+                .price-number-span{
+                  font-size: 13px;
+                  color: #FAFAFC;
+                  font-family: PoppinsReg;
+                  margin: 0;
+                }
+                sup{
+                  color: $base-color;
+                }
+              }
+
+              .price-list{
+                .price-empty-item{
+                  opacity: .6;
+                }
+                ul > li{
+                  font-size: 13px;
+                  color: #8C8C8E;
+                  line-height: 30px;
+                }
+                li::before{
+                  font-family: 'FontAwesome';
+                  font-weight: 900;
+                  content: "\f00c";
+                  margin-right: 5px;
+                  font-size: 9px;
+                  color: $base-color
+                }
+                .price-empty-item::before{
+                  font-family: 'FontAwesome';
+                  font-weight: 900;
+                  content: "\f00d";
+                  margin-right: 5px;
+                  font-size: 9px;
+                  color: $base-color;
+                }
+              }
+
+              .order-button{
+                margin: 30px 0 10px 0;
+                a{
+                  font-size: 12px;
+                  text-transform: uppercase;
+                  color: $base-color;
+                  font-family: PoppinsSb;
+                }
+              }
+
+              .price-asterisk{
+                font-size: 10px;
+                color: #8C8C8E;
+              }
+          }
+        }
+
+
+
+  }/* Content scroll-end */
+
+
+
+
+
+
+}/* #content-end */
+
+
+
+
+@media (max-width: 1200px) {
+    #info-bar{
+      display: none;
+    }
+    .content-header{
+      text-align: center;
+    }
+    #content{
+      padding-left: 0px;
+      padding-right: 0px;
+    }
+
+}
