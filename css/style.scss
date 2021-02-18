@@ -474,6 +474,43 @@ body{
 
 
 
+      .recomendations{/* Recomendations(Carousel) */
+          .carousel{
+            margin-top: 15px;
+          }
+          .testimonial-body{
+            background: #2C2C38;
+            padding: 30px;
+              h5{
+                font-family: PoppinsSb;
+                font-size: 14px;
+                margin-bottom: 10px;
+              }
+              .subtitle > span{
+                font-size: 12px;
+                color: #8C8C8E;
+                font-style: italic;
+              }
+              .description > p{
+                line-height: 18px;
+                font-size: 13px;
+                color: #8C8C8E;
+                margin: 20px 0;
+              }
+              .testimonial-footer{
+                width: 100px;
+              }
+              .testimonial-footer ul{
+                padding: 8px 15px;
+                font-size: 10px;
+                margin-top: 5px;
+                background: #20202a;
+                border-radius: 30px;
+                color: $base-color;
+              }
+          }
+      }
+
   }/* Content scroll-end */
 
 

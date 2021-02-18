@@ -14,3 +14,6 @@ typewriter.typeString('Developer')
     .typeString('popcorn.com')
     .pauseFor(100)
     .start();
+
+
+/*Slider*/

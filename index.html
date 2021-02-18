@@ -3,7 +3,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="/css/bootstrap/bootstrap.css">
+  <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+  <link rel="stylesheet" href="/css/bootstrap/mdb.min.css">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/loading-bar.min.css">
   <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
@@ -24,7 +25,7 @@
                 <img src="https://bslthemes.com/arter-wp/wp-content/uploads/2020/09/face-1-small.jpg">
               </div>
 
-              <h5><a href="#">Artur Carter</a></h5>
+              <h5><a href="#">Felix</a></h5>
 
               <div class="sm-text">
                 Front-end Developer
@@ -314,11 +315,126 @@
               </div>
 
               <div class="recomendations"><!-- Recomendations -->
+                  <div class="container-fluid">
+                    <div class="base-title col-lg-12"><h4>Recommendations</h4></div>
+
+
+                    <div class="carousel" data-flickity='{ "wrapAround": true }'>
+                        <div class="carousel-cell testimonial">
+                          <div class="testimonial">
+                            <div class="testimonial-body">
+                                <h5>Paul Trueman</h5>
+                                <div class="subtitle"><span> Template author </span></div>
+                                <div class="description">
+                                  <p>
+                                    Working with Artur has been a pleasure. Better yet - I alerted them of a minor issue before going to sleep. The issue was fixed the next morning. I couldn't ask for better support. Thank you Artur! This is easily a 5 star freelancer.
+                                  </p>
+                                </div>
+                                <div class="testimonial-footer">
+                                  <ul>
+                                    <li class="fas fa-star"></li>
+                                    <li class="fas fa-star"></li>
+                                    <li class="fas fa-star"></li>
+                                    <li class="fas fa-star"></li>
+                                    <li class="fas fa-star"></li>
+                                  </ul>
+                                </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="carousel-cell testimonial">
+                          <div class="testimonial">
+                            <div class="testimonial-body">
+                                <h5>Paul Trueman</h5>
+                                <div class="subtitle"><span> Template author </span></div>
+                                <div class="description">
+                                  <p>
+                                    Working with Artur has been a pleasure. Better yet - I alerted them of a minor issue before going to sleep. The issue was fixed the next morning. I couldn't ask for better support. Thank you Artur! This is easily a 5 star freelancer.
+                                  </p>
+                                </div>
+                                <div class="testimonial-footer">
+                                  <ul>
+                                    <li class="fas fa-star"></li>
+                                    <li class="fas fa-star"></li>
+                                    <li class="fas fa-star"></li>
+                                    <li class="fas fa-star"></li>
+                                    <li class="fas fa-star"></li>
+                                  </ul>
+                                </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="carousel-cell testimonial">
+                          <div class="testimonial">
+                            <div class="testimonial-body">
+                                <h5>Paul Trueman</h5>
+                                <div class="subtitle"><span> Template author </span></div>
+                                <div class="description">
+                                  <p>
+                                    Working with Artur has been a pleasure. Better yet - I alerted them of a minor issue before going to sleep. The issue was fixed the next morning. I couldn't ask for better support. Thank you Artur! This is easily a 5 star freelancer.
+                                  </p>
+                                </div>
+                                <div class="testimonial-footer">
+                                  <ul>
+                                    <li class="fas fa-star"></li>
+                                    <li class="fas fa-star"></li>
+                                    <li class="fas fa-star"></li>
+                                    <li class="fas fa-star"></li>
+                                    <li class="fas fa-star"></li>
+                                  </ul>
+                                </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="carousel-cell testimonial">
+                          <div class="testimonial">
+                            <div class="testimonial-body">
+                                <h5>Paul Trueman</h5>
+                                <div class="subtitle"><span> Template author </span></div>
+                                <div class="description">
+                                  <p>
+                                    Working with Artur has been a pleasure. Better yet - I alerted them of a minor issue before going to sleep. The issue was fixed the next morning. I couldn't ask for better support. Thank you Artur! This is easily a 5 star freelancer.
+                                  </p>
+                                </div>
+                                <div class="testimonial-footer">
+                                  <ul>
+                                    <li class="fas fa-star"></li>
+                                    <li class="fas fa-star"></li>
+                                    <li class="fas fa-star"></li>
+                                    <li class="fas fa-star"></li>
+                                    <li class="fas fa-star"></li>
+                                  </ul>
+                                </div>
+                            </div>
+                          </div>
+                        </div>
+
+                    </div>
+                    
 
               </div>
 
+<style>
 
+.carousel-cell {
+  width: 50%;
+  margin-right: 35px;
+  counter-increment: gallery-cell;
+}
 
+@media (max-width: 870px){
+  .carousel-cell{
+      width: 70%;
+  }
+}
+
+@media (max-width: 624px){
+  .carousel-cell{
+      width: 100%;
+  }
+}
+
+</style>
 
 
 
@@ -351,8 +467,9 @@
 
 
 <div id="particles-js"></div>
+<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+<script src="js/mdb.min.js"></script>
 <script src="js/loading-bar.min.js"></script>
-<script src="js/bootstrap.bundle.js"></script>
 <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="js/particle.min.js"></script>
