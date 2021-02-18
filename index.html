@@ -416,11 +416,35 @@
 
 <style>
 
+.carousel{
+  /* background: #000; */
+}
 .carousel-cell {
   width: 50%;
   margin-right: 35px;
   counter-increment: gallery-cell;
 }
+.flickity-button{
+  position: relative;
+}
+
+.flickity-prev-next-button.previous {left: 95%;}
+.flickity-prev-next-button.next {left: 93%;}
+.flickity-button:hover{
+  background: none;
+  color: #637AFC;
+}
+
+.flickity-prev-next-button{
+  width: 0;
+  height: 0;
+  padding: 10px;
+  margin: 20px 10px;
+  background: none;
+  color: lemonchiffon;
+  transition: .7s ease all;
+}
+
 
 @media (max-width: 870px){
   .carousel-cell{
