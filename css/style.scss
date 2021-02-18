@@ -17,9 +17,10 @@ $base-color: #637AFC;
   background-size: cover;
 }
 body{
-  display: flex;
+  display: none;
   font-family: PoppinsReg;
 }
+
 #wrapper{
   display: flex;
   height: 100vh;

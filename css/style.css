@@ -15,7 +15,7 @@
 }
 
 body {
-  display: flex;
+  display: none;
   font-family: PoppinsReg;
 }
 
