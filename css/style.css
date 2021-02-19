@@ -404,7 +404,7 @@ body {
 
 #content .content-scroll .service-content .box-item a::after {
   content: '\f0da';
-  font-family: FontAwesome;
+  font-family: 'FontAwesome';
   margin-left: 5px;
 }
 
@@ -487,7 +487,7 @@ body {
 
 #content .content-scroll .price-box .price-box-item .order-button a::after {
   content: '\f0da';
-  font-family: FontAwesome;
+  font-family: 'FontAwesome';
   margin-left: 5px;
 }
 

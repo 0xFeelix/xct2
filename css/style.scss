@@ -401,7 +401,7 @@ body{
             font-family: PoppinsSb;
               &::after{
                 content: '\f0da';
-                font-family: FontAwesome;
+                font-family: 'FontAwesome';
                 margin-left: 5px;
               }
           }
@@ -476,7 +476,7 @@ body{
                   font-family: PoppinsSb;
                   &::after{
                     content: '\f0da';
-                    font-family: FontAwesome;
+                    font-family: 'FontAwesome';
                     margin-left: 5px;
                   }
                 }
