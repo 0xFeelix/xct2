@@ -411,7 +411,7 @@ body {
 }
 
 .info-scroll .knowledge-list li:before {
-  font-family: "FontAwesome";
+  font-family: "Font Awesome 5 Pro";
   font-weight: 900;
   content: "\f00c";
   margin-right: 5px;
@@ -532,7 +532,7 @@ body {
 
 #content .content-header .myName:after {
   content: '\f054';
-  font-family: 'FontAwesome';
+  font-family: 'Font Awesome 5 Pro';
   color: #637AFC;
   font-size: 17px;
   margin-left: 5px;
@@ -626,7 +626,7 @@ body {
 
 #content .content-scroll .service-content .box-item a::after {
   content: '\f0da';
-  font-family: 'FontAwesome';
+  font-family: 'Font Awesome 5 Pro';
   margin-left: 5px;
 }
 
@@ -679,7 +679,7 @@ body {
 }
 
 #content .content-scroll .price-box .price-box-item .price-list li::before {
-  font-family: 'FontAwesome';
+  font-family: 'Font Awesome 5 Pro';
   font-weight: 900;
   content: "\f00c";
   margin-right: 5px;
@@ -688,7 +688,7 @@ body {
 }
 
 #content .content-scroll .price-box .price-box-item .price-list .price-empty-item::before {
-  font-family: 'FontAwesome';
+  font-family: 'Font Awesome 5 Pro';
   font-weight: 900;
   content: "\f00d";
   margin-right: 5px;
@@ -709,7 +709,7 @@ body {
 
 #content .content-scroll .price-box .price-box-item .order-button a::after {
   content: '\f0da';
-  font-family: 'FontAwesome';
+  font-family: 'Font Awesome 5 Pro';
   margin-left: 5px;
 }
 

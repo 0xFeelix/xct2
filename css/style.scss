@@ -188,7 +188,7 @@ body{
 .knowledge-list{
   li{font-size: 13px; color: #8C8C8E; margin-bottom: 12px;}
   li:before{
-    font-family: "FontAwesome";
+    font-family: "Font Awesome 5 Pro";
     font-weight: 900;
     content: "\f00c";
     margin-right: 5px;
@@ -328,7 +328,7 @@ body{
       float: left;
         &:after{
           content: '\f054';
-          font-family: 'FontAwesome';
+          font-family: 'Font Awesome 5 Pro';
           color: $base-color;
           font-size: 17px;
           margin-left: 5px;
@@ -414,7 +414,7 @@ body{
             font-family: PoppinsSb;
               &::after{
                 content: '\f0da';
-                font-family: 'FontAwesome';
+                font-family: 'Font Awesome 5 Pro';
                 margin-left: 5px;
               }
           }
@@ -463,7 +463,7 @@ body{
                   line-height: 30px;
                 }
                 li::before{
-                  font-family: 'FontAwesome';
+                  font-family: 'Font Awesome 5 Pro';
                   font-weight: 900;
                   content: "\f00c";
                   margin-right: 5px;
@@ -471,7 +471,7 @@ body{
                   color: $base-color
                 }
                 .price-empty-item::before{
-                  font-family: 'FontAwesome';
+                  font-family: 'Font Awesome 5 Pro';
                   font-weight: 900;
                   content: "\f00d";
                   margin-right: 5px;
@@ -489,7 +489,7 @@ body{
                   font-family: PoppinsSb;
                   &::after{
                     content: '\f0da';
-                    font-family: 'FontAwesome';
+                    font-family: 'Font Awesome 5 Pro';
                     margin-left: 5px;
                   }
                 }
