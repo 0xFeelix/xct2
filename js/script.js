@@ -16,4 +16,9 @@ typewriter.typeString('Developer')
     .start();
 
 
-/*Slider*/
+/*Sidebar*/
+$('.menu-bar-btn').on('click', function (e) {
+  e.preventDefault();
+  $('.menu-content').toggleClass('menu-active');
+
+})
