@@ -335,6 +335,12 @@ body{
           text-transform: uppercase;
           color: #20202A;
           padding: 13px 35px;
+          transition: .7s ease all;
+          &:hover{
+            color: #fff;
+            background: none;
+            border: 1px solid $base-color;
+          }
         }
       }
   }
@@ -393,6 +399,11 @@ body{
             text-transform: uppercase;
             color: $base-color;
             font-family: PoppinsSb;
+              &::after{
+                content: '\f0da';
+                font-family: FontAwesome;
+                margin-left: 5px;
+              }
           }
         }
     }
@@ -463,6 +474,11 @@ body{
                   text-transform: uppercase;
                   color: $base-color;
                   font-family: PoppinsSb;
+                  &::after{
+                    content: '\f0da';
+                    font-family: FontAwesome;
+                    margin-left: 5px;
+                  }
                 }
               }
 

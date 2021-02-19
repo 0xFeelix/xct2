@@ -328,6 +328,13 @@ body {
   text-transform: uppercase;
   color: #20202A;
   padding: 13px 35px;
+  transition: .7s ease all;
+}
+
+#content .content-header .header-button a:hover {
+  color: #fff;
+  background: none;
+  border: 1px solid #637AFC;
 }
 
 #content .content-scroll {
@@ -393,6 +400,12 @@ body {
   text-transform: uppercase;
   color: #637AFC;
   font-family: PoppinsSb;
+}
+
+#content .content-scroll .service-content .box-item a::after {
+  content: '\f0da';
+  font-family: FontAwesome;
+  margin-left: 5px;
 }
 
 #content .content-scroll .price-box {
@@ -470,6 +483,12 @@ body {
   text-transform: uppercase;
   color: #637AFC;
   font-family: PoppinsSb;
+}
+
+#content .content-scroll .price-box .price-box-item .order-button a::after {
+  content: '\f0da';
+  font-family: FontAwesome;
+  margin-left: 5px;
 }
 
 #content .content-scroll .price-box .price-box-item .price-asterisk {
