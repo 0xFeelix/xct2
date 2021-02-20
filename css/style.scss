@@ -512,6 +512,14 @@ body{
           .testimonial-body{
             background: #2C2C38;
             padding: 30px;
+            .testimonial-img{
+              position: absolute;
+              top: 26px;
+              right: 10px;
+              width: 40px;
+              height: 40px;
+              border-radius: 50%;
+            }
               h5{
                 font-family: PoppinsSb;
                 font-size: 14px;
@@ -576,6 +584,13 @@ body{
           }
         }
       }
+
+
+
+
+
+
+
 
 
 

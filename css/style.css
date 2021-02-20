@@ -732,6 +732,15 @@ body {
   padding: 30px;
 }
 
+#content .content-scroll .recomendations .testimonial-body .testimonial-img {
+  position: absolute;
+  top: 26px;
+  right: 10px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
 #content .content-scroll .recomendations .testimonial-body h5 {
   font-family: PoppinsSb;
   font-size: 14px;
