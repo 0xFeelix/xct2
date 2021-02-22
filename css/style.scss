@@ -691,6 +691,7 @@ body{
   top: 28px;
   font-size: 14px;
   transition: .6s ease all;
+  display: none;
   &:hover{
     color: #8C8C8E
   }
@@ -725,6 +726,9 @@ body{
     }
     .mobile-top-bar{
       display: flex;
+    }
+    .info-bar-btn{
+      display: block
     }
     #wrapper{
       padding: 0;
