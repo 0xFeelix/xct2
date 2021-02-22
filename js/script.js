@@ -22,3 +22,9 @@ typewriter.typeString('Developer')
 //   $('.menu-content').toggleClass('menu-active');
 //
 // })
+
+/*Left-menu*/
+$(".info-bar-btn").on('click', function() {
+      $("#info-bar").toggleClass('active');
+      $(".info-bar-btn").toggleClass('active-btn')
+});
