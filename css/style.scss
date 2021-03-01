@@ -3,10 +3,10 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 
 /* Fonts */
-@font-face{font-family:VarelaRound;src:url(fonts/VarelaRound.ttf)}
-@font-face{font-family:PoppinsReg;src:url(fonts/Poppins-Regular.ttf)}
-@font-face{font-family:PoppinsSb;src:url(fonts/Poppins-SemiBold.ttf)}
-@font-face{font-family:PoppinsEb;src:url(fonts/Poppins-ExtraBold.ttf)}
+@font-face{font-family:VarelaRound;src:url(fonts/VarelaRound.ttf); font-display: swap;}
+@font-face{font-family:PoppinsReg;src:url(fonts/Poppins-Regular.ttf); font-display: swap;}
+@font-face{font-family:PoppinsSb;src:url(fonts/Poppins-SemiBold.ttf); font-display: swap;}
+@font-face{font-family:PoppinsEb;src:url(fonts/Poppins-ExtraBold.ttf); font-display: swap;}
 
 /* Loading bar */
 .ldBar{position:relative}.ldBar.label-center>.ldBar-label{position:absolute;top:50%;left:50%;-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%)}.ldBar-label:after{content:"%";display:inline}.ldBar.no-percent .ldBar-label:after{content:""}

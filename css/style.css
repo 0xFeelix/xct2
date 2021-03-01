@@ -50,21 +50,25 @@ a {
 @font-face {
   font-family: VarelaRound;
   src: url(fonts/VarelaRound.ttf);
+  font-display: swap;
 }
 
 @font-face {
   font-family: PoppinsReg;
   src: url(fonts/Poppins-Regular.ttf);
+  font-display: swap;
 }
 
 @font-face {
   font-family: PoppinsSb;
   src: url(fonts/Poppins-SemiBold.ttf);
+  font-display: swap;
 }
 
 @font-face {
   font-family: PoppinsEb;
   src: url(fonts/Poppins-ExtraBold.ttf);
+  font-display: swap;
 }
 
 /* Loading bar */
